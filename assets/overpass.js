@@ -5,7 +5,7 @@ const searchControl = new window.GeoSearch.GeoSearchControl({
   autoClose: true
 }); 
 
-let map = L.map('map').setView([41.030136, 28.976939], 14);;
+let map = L.map('map').setView([50.0956, 8.7761], 14);;
 
 map.addControl(searchControl);
 map.on('geosearch_showlocation', (result) => {
